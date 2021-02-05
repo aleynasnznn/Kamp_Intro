@@ -47,7 +47,7 @@ namespace LinqProject
             select new ProductDto { ProductId = p.ProductId, CategoryName=c.CategoryName, ProductName = p.ProductName, UnitPrice = p.UnitPrice };
             foreach (var productDto in result)
             {
-                Console.WriteLine("{0}---{1}",productDto.ProductName,productDto.CategoryName);
+                Console.WriteLine("{0}--{1}",productDto.ProductName,productDto.CategoryName);
             }
         }
 
